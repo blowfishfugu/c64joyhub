@@ -20,7 +20,8 @@ VCC is optional, it's only used by joysticks with integrated auto-fire-circuits.
 
 ## boards.txt
 
-    separate device-name and productname by extending boards.txt ( also here is an additional vid/pid to let the second joystick appear as separate device )
+    separate device-name and productname by extending boards.txt 
+    ( also here is an additional vid/pid to let the second joystick appear as separate device )
     usually found in -> AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6
     first three device-ids should stay the same, otherwise keyboard/mouse and bootloader will be missing
     bootloader can be reattached by changing driver back
